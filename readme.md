@@ -2,7 +2,7 @@
 ## Abstract
 This sample code is to send 3 navigation goals in map frame.
 This code activate a node "simple_navigation_goals" 
-This node publishe goals to /move_base/goal. 
+This node publishes goals to /move_base/goal. 
 This code also demonstrates how to publish a navigation goal
 You can see the navigation in rviz.
 
