@@ -39,10 +39,10 @@ $ catkin_make or catkin build
 If you are not familiar with navigation and SLAM of turtlebot3,
 please see https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
  
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch  # Terminal 1 , open gazebo environment. 
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml # Terminal 2 ,  Make sure you have map file in HOME.
-$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch # Terminal 3 , remote control 
-$ rosrun simple_navigation_goals simple_navigation_goals # Terminal 4 , send goals.
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch  # Terminal 1 , open gazebo environment.   
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml # Terminal 2 ,  Make sure you have map file in HOME.  
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch # Terminal 3 , remote control   
+$ rosrun simple_navigation_goals simple_navigation_goals # Terminal 4 , send goals.  
 
 ## Visualization
 When you activate "turtlebot3_navigation", you will see the rviz.
