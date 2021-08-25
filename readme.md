@@ -25,7 +25,7 @@ $ catkin build
 
 ## Install simple_navigation_goals
 $ cd catkin_ws/src  
-$ git clone https://github.com/kuoshih/simple_navigation_goals
+$ git clone https://github.com/kuoshih/simple_navigation_goals  
 $ cd ..  
 $ catkin_make or catkin build
 
