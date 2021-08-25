@@ -11,7 +11,7 @@ You can see the navigation in rviz.
 Developer:   
 * Kuo-Shih Tseng   
 Contact: kuoshih@math.ncu.edu.tw   
-Date: 2021/08/25 
+Date: 2021/08/25   
 License: Apache 2.0  
 
 ## Install other packages
