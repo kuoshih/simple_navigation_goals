@@ -15,13 +15,13 @@ Date: 2021/08/25
 License: Apache 2.0  
 
 ## Install other packages
-Make sure you install "turtlebot3_navigation", "turtlebot3_simulations", turtlebot3_slam, "turtlebot3_teleop."
+Make sure you install "turtlebot3_navigation", "turtlebot3_simulations", turtlebot3_slam, "turtlebot3_teleop."  
 If you did not install it, copy them from https://github.com/ROBOTIS-GIT/turtlebot3
-Then, install the "turtlebot3_simulations"
-$ cd ~/catkin_ws/src/
-$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/catkin_ws/
-$ catkin build
+Then, install the "turtlebot3_simulations"  
+$ cd ~/catkin_ws/src/  
+$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git  
+$ cd ~/catkin_ws/  
+$ catkin build  
 
 ## Install simple_navigation_goals
 $ cd catkin_ws/src  
@@ -40,7 +40,7 @@ If you are not familiar with navigation and SLAM of turtlebot3,
 please see https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
  
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch  # Terminal 1 , open gazebo environment. 
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml #  Terminal 2 ,  Make sure you have map file in HOME.
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml # Terminal 2 ,  Make sure you have map file in HOME.
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch # Terminal 3 , remote control 
 $ rosrun simple_navigation_goals simple_navigation_goals # Terminal 4 , send goals.
 
